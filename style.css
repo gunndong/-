@@ -1,0 +1,93 @@
+* {
+  background-color: #ecf0f6;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.hr-solid {
+  border: 0px;
+  position: center;
+  border-top: 2px solid #e1e8f2;
+}
+
+.input-section {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#todo-input {
+  width: 600px;
+  background-color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: rgb(211, 211, 211);
+  font-style: italic;
+}
+
+.todo-list, .done-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list li, .done-list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-list li button, .done-list li button {
+  margin-left: auto;
+}
+
+.delete-btn {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.todo-column, .done-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.lists-container {
+  display: flex;
+  flex-grow: 1;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.list-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.my-underline {
+  border-bottom: 1px solid #aaa;
+  display: inline-block;
+}
